@@ -1,0 +1,108 @@
+body{
+    font-family: "Lato","monospace";
+    background-color:black;
+}
+#table{
+    display: grid;
+    grid-template-columns: repeat(19, auto);
+    grid-template-rows: repeat(8, auto);
+    grid-gap: 0.2em;
+    font-size: 1.5em;
+}
+.headingnum, p{
+    text-align: center;
+    color:white;
+    font-size: 0.8em;
+    margin-bottom: 0.2em;
+}
+.sideline, p{
+    text-align: center;
+    color: white;
+    font-size: 0.8em;
+    margin-left: 0;
+}
+.e1, .e3, .e11, .e19, .e37, .e55, .e87,.num1{
+    grid-column-start: 2;
+}
+.e4, .e12, .e20, .e38, .e56, .e88{
+  grid-column-start: 3;
+}
+.e21, .e39, .e57, .e89{
+    grid-column-start: 4;
+}
+
+.e5, .e13, .e31, .e49, .e81, .e113{
+    grid-column-start: 14;
+}
+.e2, .e10, .e18, .e18, .e36, .e54, .e86, .e118{
+    grid-column-start: 19;
+}
+.deep-green{
+    background-color:  #032207;
+}
+.deep-pink{
+background-color: #690948;
+}
+.blue{
+ background-color: #0A4083;
+}
+.red{
+   background-color: #7B170C;
+}
+.star{
+   text-align: center;
+   color: white;
+   margin-top: 0.2em;
+   font-weight: 900;
+
+}
+.brown{
+  background-color: #6F3D0C;
+}
+.pink{
+ background-color: #C12E96;
+}
+.teal{
+ background-color: #136889
+}
+.light-green{
+background-color: #11B520
+}
+
+.num{
+   font-size: 0.8rem;
+   color: white;
+   text-align: left;
+   padding-left: 0.3rem;
+   margin: 0;
+}
+.name{
+    margin: 0.3em 0.7em 0.7em 0.8em;
+    font-weight: 900;
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+.row1{
+    grid-row-start: 1;
+}
+.row2{
+    grid-row-start: 2;
+}.row3{
+    grid-row-start: 3;
+}
+.row4{
+    grid-row-start: 4;
+}.row5{
+    grid-row-start: 5;
+}
+.row6{
+    grid-row-start: 6;
+}.row7{
+    grid-row-start: 7;
+}
+.row8{
+    grid-row-start: 8;
+}.row9{
+    grid-row-start: 9;
+}
